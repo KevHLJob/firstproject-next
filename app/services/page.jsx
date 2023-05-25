@@ -1,6 +1,7 @@
 import React from 'react'
 
 function ServicePage() {
+    //elemento basico de react para la descripcion de servicios
     return (
         <div>
             <h1>Services</h1>

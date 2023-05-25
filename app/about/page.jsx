@@ -2,6 +2,7 @@ import React from 'react'
 
 function AboutPage() {
     return (
+        // elemento basico de react para about
         <div>
             <h1>About me</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.

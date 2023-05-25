@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 function Navigation() {
   return (
-
+// nav con sus links para about y services con bootstrap para el estilo
     <nav className="navbar navbar-expand-lg bg-light">
       <div className="container">
         <Link className="navbar-brand" href="/">Next First App</Link>

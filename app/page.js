@@ -1,6 +1,7 @@
 import React from "react";
 import Users from "../components/Users";
 
+//function asincrona para obtener usuarios
 async function fecthUsers() {
   const rest = await fetch("https://reqres.in/api/users"); //api de usuarios
   const data = await rest.json(); //datos de la api
@@ -8,9 +9,10 @@ async function fecthUsers() {
 }
 
 async function IndexPage() {
+
   const users = await fecthUsers();
-  console.log(users);
-  return <Users users={users} />;
+  return <Users users={users} />; // se obtiene la data.data de las funcion fetchUsers y
+  //y se llama en el componente Users
 }
 
 export default IndexPage;
